@@ -1,0 +1,29 @@
+.blend {
+  width: 600px;
+  height: 400px;
+
+  /* Option A layer order */
+  background-image: url("./assets//backgroundImg.png"),
+    url("./assets/backgroundJpg.png");
+
+  background-size: 20% 100% 20% 100%;
+  background-position: center;
+  /* opacity: 0.8; adjust 0–1 */
+}
+
+/* Mode 1 */
+.normal {
+  background-blend-mode: normal;
+}
+
+.multiply {
+  background-blend-mode: multiply;
+}
+
+.screen {
+  background-blend-mode: screen;
+}
+
+.overlay {
+  background-blend-mode: overlay;
+}

@@ -1,0 +1,35 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(0, 0%, 94%);
+  background-image: url("./assets/backgroundImg.png");
+  /* background-image: ; */
+  /* repeat-x, repeat-y. no-repeat */
+  background-repeat: no-repeat;
+  /* cover, auto(default), contain */
+  /* 100%->horizontal, vertical */
+  background-size: 80% 80%;
+  /* background-position: bottom left; */
+  /*background: <background-color> <background-image> <background-position> / <background-size> <background-repeat>;*/
+
+  /* 
+        Value       	Description
+        normal	        No blending; layers stack plainly.
+        multiply	    Darkens by multiplying colors; great for shadows.
+        screen	        Lightens by inverting, multiplying, then inverting again; opposite of multiply.
+        overlay	        Combines multiply + screen; increases contrast.
+        darken	        Keeps the darker of each pixel.
+        lighten	        Keeps the lighter of each pixel.
+        color-dodge	    Brightens based on top layer.
+        color-burn	    Darkens based on top layer.
+        hard-light	    Like overlay but reversed roles of layers.
+        soft-light	    Softer version of hard-light; gentle shading.
+        difference	    Subtracts darker color from lighter color.
+        exclusion	    Similar to difference but lower contrast.
+        hue	            Applies hue from the top layer.
+        saturation	    Applies saturation from the top layer.
+        color	        Applies hue + saturation from top layer.
+        luminosity	    Applies brightness from top layer. 
+  */
+  /* background-blend-mode: overlay; */
+}
