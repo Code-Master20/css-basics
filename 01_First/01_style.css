@@ -1,0 +1,14 @@
+/* Sets the color to the element's color property value. However,
+ if set as the value of color, currentColor is treated as inherit. */
+h1 {
+  color: blue;
+  border: 1.5px solid currentColor;
+  text-decoration-line: underline;
+  text-decoration-color: currentColor;
+  text-decoration-thickness: 1.5px;
+}
+
+span {
+  color: currentColor; /*here currentColor is treated as inherits for span-element
+  in-fact no need to mention currentColor, span automatically inherits its parent color as text-color*/
+}
